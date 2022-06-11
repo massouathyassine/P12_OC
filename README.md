@@ -20,11 +20,11 @@ Installation :
 - Dans le fichier settings.py, dans la partie DATABASES, modifiez le USER et le PASSWORD en fonction de vos paramètres postgreSQL.
 - Créer un environnement virtuel <code>python -m venv env</code>
 - Activer l'environnement virtuel <code>venv\Scripts\activate.bat</code>
-- Installez la dernière version de <code>pip python -m pip install --upgrade pip</code>
-- Installez les packages Python externes avec <code>pip install -r requirements.txt</code>
+- Installez la dernière version de <code>pip python -m pip install --upgrade pip </code>
+- Installez les packages Python externes avec <code>pip install -r requirements.txt </code>
 - Dans pgAdmin 4, créez une base de données my_db
-- <code>python manage.py makemigrations
-- <code>python manage.py migrate
+- <code>python manage.py makemigrations</code>
+- <code>python manage.py migrate</code>
 
 Utilisation : 
 
